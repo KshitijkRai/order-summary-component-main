@@ -31,6 +31,7 @@ body {
 .main-card img {
     width: 100%;
     border-radius: 12px 12px 0 0;
+    margin-top: 30px;
 }
 
 .card-details {
