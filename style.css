@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    background: url(images/pattern-background-desktop.svg) no-repeat center center/cover;
+    background-color: #E0E8FF;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 420px;
+    margin: auto;
+}
+
+.main-card img {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 0 0 12px 12px;
+    padding: 16px;
+}
+
+.card-details h1 {
+    font-size: 32px;
+    padding: 10px 0;
+}
+
+.card-details p {
+    font-size: 15px;
+    color: #a19797;
+    line-height: 25px;
+    padding: 10px 30px;
+}
+
+.card-details p {
+    font-size: 15px;
+    color: #847fb4;
+    line-height: 25px;
+    padding: 10px 30px;
+}
+
+.price-plan {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background:#f5f5ff;
+    padding: 12px;
+    margin: 16px 0;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.price-plan img {
+    width: 40px;
+    margin-right: 14px;
+}
+
+.price-plan h4 {
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.price-item {
+    display: flex;
+    align-items: center;
+}
+
+.price-item h5 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #808080;
+}
+
+.price-plan a {
+    color: #3131af;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+span.payment {
+    background: #382AE1;
+    color: #fff;
+    width: 80%;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 8px 7px #d4d4d4;
+}
+
+span.cancel-payment {
+    font-size: 14px;
+    font-weight: bold;
+    color: #9ca69c;
+    margin-bottom: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .main-card {
+        width: auto;
+    }
+
+
+}
+
+@media (max-width: 350px) {
+    .price-plan {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price-item div {
+        margin-bottom: 5px;
+
+    }
+}
